@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{d6fb0829-ec4d-46e0-b6fe-ee0dec346254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuikAPIConnector">
+      <UniqueIdentifier>{09173772-6df4-4fb8-803e-6e859dff0b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\Win32API">
+      <UniqueIdentifier>{ab2601ea-7b59-4f1a-9a4e-f5cd114a9ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\Win64API">
+      <UniqueIdentifier>{db3bd71e-2963-4d12-8e1c-fc6aef71b6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TransactionBuilder">
+      <UniqueIdentifier>{9b3f3f2f-73bc-4355-851c-a2bc76f97f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OrderManager">
+      <UniqueIdentifier>{9090c1e6-397f-447f-bf57-f21f1e09f5d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\TradingAPIConnectorInterface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="QuikAPIConnector.h">
+      <Filter>QuikAPIConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Externals\QuikAPI\Win64\include\trans2quik_api.h">
+      <Filter>interface\Win64API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Externals\QuikAPI\Win32\include\trans2quik_api.h">
+      <Filter>interface\Win32API</Filter>
+    </ClInclude>
+    <ClInclude Include="TransactionBulder.h">
+      <Filter>TransactionBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderManager.h">
+      <Filter>OrderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TransactionResults.hpp">
+      <Filter>OrderManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TradingAPIConnector.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="QuikAPIConnector.cpp">
+      <Filter>QuikAPIConnector</Filter>
+    </ClCompile>
+    <ClCompile Include="TransactionBulder.cpp">
+      <Filter>TransactionBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderManager.cpp">
+      <Filter>OrderManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
